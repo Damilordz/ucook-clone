@@ -1,0 +1,143 @@
+.menu-section{
+  width: 100%;
+  background: rgb(250, 250, 250);
+  padding: 5rem 11rem;
+}
+
+.menu-section h3{
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .carousel-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-title {
+    margin: 0 1rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .carousel-title.active {
+    color: #ff6600;
+  }
+  
+  .carousel-slides {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .carousel-slide {
+    margin: 0.5rem;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .carousel-slide p{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  
+  .carousel-slide img {
+    max-height: 18.2rem;
+    cursor: pointer;
+  }
+  
+  .carousel-controls {
+    margin-top: 1rem;
+  }
+  
+  .carousel-controls button {
+    margin: 0 2rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: .2rem;
+    padding: .5rem;
+  }
+
+  .hero-carousel{
+    position: relative;
+    padding: 0;
+  }
+
+  .hero-carousel-slide{
+    display: flex;
+    height: 44rem;
+    background-color:  rgb(232, 117, 67);
+  }
+
+  .h-carousel-info{
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15rem;
+    border: 1px solid;
+    color: #fff;
+    border: none;
+  }
+
+  #mothers-3{
+    background-color: #bebeaf;
+  }
+
+  .h-carousel-img{
+    flex: 1 1 50%;
+    border-bottom-left-radius: 10rem;
+    background-color: #bebeaf;
+  }
+
+  .h-carousel-img img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10rem;
+  }
+
+.btn-1{
+  border: 0.2rem solid #fff;
+  align-self: start;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.btn-2{
+  border: 0.2rem solid #333;
+  align-self: start;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  font-weight: 900;
+}
+
+.control-position-r{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.control-position-l{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}

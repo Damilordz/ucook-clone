@@ -1,0 +1,248 @@
+@media (max-width: 767px) {
+  body {
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+
+  header {
+    padding: 0 2rem;
+    align-items: center;
+  }
+
+  .nav-bar {
+    display: block;
+  }
+
+  .fa-bars {
+    cursor: pointer;
+  }
+
+  .logo {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .shopping-cart {
+    display: flex;
+  }
+
+  .header-buttons,
+  .nav-container,
+  .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cart-btn {
+    position: absolute;
+    padding: 0.2rem 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 117, 67);
+    top: 0;
+  }
+
+  .nav-container,
+  .auth-buttons {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .hero-text {
+    order: 1;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 8.75vw;
+    font-family: "utopia";
+  }
+
+  .hero-text h3 {
+    font-size: 5.625vw;
+  }
+
+  .hero-btn {
+    color: rgb(79, 169, 112);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(79, 169, 112);
+    border-width: 0.625vw;
+    margin-bottom: 1rem;
+  }
+
+  .faq{
+    font-size: 3.7vw;
+  }
+
+  .ucook-feature p {
+    display: none;
+  }
+
+  .feature-section {
+    padding: 4rem 4rem;
+  }
+
+  .feature-wrap {
+    flex-direction: column;
+  }
+
+  .menu-section {
+    display: none;
+  }
+
+  .hero-carousel-slide {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    min-height: 70vh;
+    max-height: 100vh;
+  }
+
+  .h-carousel-info {
+    min-height: 40vh;
+    max-height: 50vh;
+    padding: 0 4rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h-carousel-info h1 {
+    font-size: 3.5rem;
+  }
+
+  .h-carousel-img,
+  .h-carousel-img img {
+    border-bottom-left-radius: 0;
+    min-height: 30vh;
+    max-height: 50vh;
+  }
+
+  .btn-1,
+  .btn-2 {
+    align-self: center;
+  }
+
+  .control-position-r,
+  .control-position-l {
+    top: 90%;
+  }
+
+  .ucook-feature {
+    display: block;
+  }
+
+  .getstarted {
+    padding: 0.3rem 1.2rem;
+  }
+
+  .cravings-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .cravings-section h4 {
+    font-size: 5vw;
+    font-weight: 500;
+  }
+
+  .card-info h3,
+  .card-info p {
+    display: none;
+  }
+
+  .cravings-section .carousel-controls {
+    display: none;
+  }
+
+  .cravings-carousel {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .card-info {
+    padding: 1rem;
+  }
+
+  .card-link {
+    font-weight: 700;
+  }
+
+  .text-card {
+    grid-template-columns: 1fr;
+    padding: 4rem;
+  }
+
+  .subscribe-section {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .subscribe-text h6 {
+    font-size: 3.125vw;
+    font-weight: 600;
+  }
+
+  .subsribe-input,
+  .subsribe-input > input {
+    width: 100%;
+  }
+
+  .footer-wrap {
+    padding: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 4rem;
+  }
+
+  .footer-apps {
+    order: -1;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .terms-condition {
+    padding: 2.5rem 0;
+    flex-direction: column;
+  }
+
+  .copyright {
+    order: -1;
+    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .source{
+    padding: 0 2.5rem;
+  }
+
+  .terms-condition p {
+    font-weight: 700;
+    font-weight: 8vw;
+  }
+
+  .download-app{
+    flex-direction: column;
+  }
+}

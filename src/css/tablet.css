@@ -1,0 +1,184 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  header {
+    padding: 0 2rem;
+    align-items: center;
+  }
+
+  .nav-bar {
+    display: block;
+  }
+
+  .fa-bars {
+    cursor: pointer;
+  }
+
+  .logo {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .shopping-cart {
+    display: flex;
+  }
+
+  .header-buttons,
+  .nav-container,
+  .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cart-btn {
+    position: absolute;
+    padding: 0.2rem 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 117, 67);
+    top: 0;
+  }
+
+  .nav-container,
+  .auth-buttons {
+    display: none;
+  }
+
+  .hero {
+    padding: 0;
+    height: 50vh;
+  }
+
+  .hero-text {
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 3.65vw;
+  }
+
+  .hero-text h3 {
+    font-size: 2.344vw;
+  }
+
+  .hero-btn {
+    color: rgb(79, 169, 112);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(79, 169, 112);
+    border-width: 0.3vw;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .feature-section {
+    padding: 3rem;
+  }
+
+  .feature-wrap {
+    flex-wrap: wrap;
+  }
+
+  .feature {
+    flex-basis: 50%;
+    flex-grow: 0;
+  }
+
+  .menu-section {
+    display: none;
+  }
+
+  .h-carousel-info {
+    padding: 0 4.5rem;
+    flex-basis: 20%;
+  }
+
+  .h-carousel-img,
+  .h-carousel-img img {
+    border-bottom-left-radius: 0;
+  }
+
+  .h-carousel-info h1 {
+    font-size: 3.65vw;
+  }
+
+  .ucook-feature p {
+    display: none;
+  }
+
+  .ucook-feature {
+    gap: 4rem;
+  }
+
+  .cravings-section {
+    padding: 4rem 0;
+    text-align: center;
+  }
+
+  .cravings-section h4 {
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+
+  .card-info h3,
+  .card-info p {
+    display: none;
+  }
+
+  .cravings-section .carousel-controls {
+    display: none;
+  }
+
+  .cravings-carousel {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 4rem;
+  }
+
+  .card {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .card-info {
+    padding: 1rem;
+  }
+
+  .card-link {
+    font-weight: 700;
+  }
+
+  .text-card {
+    padding: 2rem 4rem;
+    gap: 1rem;
+  }
+
+  .subscribe-section {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .footer-wrap {
+    padding: 2.5rem 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+
+  .terms-condition {
+    padding: 2.5rem 4rem;
+  }
+
+  .copyright {
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+  }
+
+}
